@@ -434,7 +434,7 @@ export default function() {
 
 ### Utility functions
 
-- `openConsentManager()` - Opens the [ConsentManager][] preferences dialog.
+- `openConsentManager()` - Opens the [ConsentManager][] preferences dialog. For instance, this can be used to create a link from the footer of the site to enable visitors to change their cookie preferences: create a link and execute the following function on click `window.consentManager.openConsentManager()`.
 - `doNotTrack()` - Returns the user's Do Not Track preference (normalises the cross browser API differences). Returns `true`, `false` or `null` (no preference specified).
 
 
